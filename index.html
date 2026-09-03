@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="HY GRAPHIC — Creative graphic design studio for logos, branding, social media, print and digital design.">
+<title>HY GRAPHIC | All Type Of Design Work</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#071316;--panel:#0d2226;--panel2:#102b30;--gold:#d99a27;--gold2:#f0b43b;--text:#f5f7f6;--muted:#a8b9ba;--line:rgba(255,255,255,.09)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,sans-serif;background:radial-gradient(circle at 80% 0%,#153b3e 0,transparent 34%),var(--bg);color:var(--text);line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:20;background:rgba(7,19,22,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.navin{height:74px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:12px;font-family:Outfit;font-weight:800;letter-spacing:.5px}
+.brand img{width:42px;height:42px;border-radius:50%;object-fit:cover}
+.brand span{font-size:20px}.brand b{color:var(--gold)}
+.links{display:flex;gap:25px;font-size:14px;color:#d5dddd}.links a:hover{color:var(--gold2)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 20px;border-radius:12px;font-weight:700;background:linear-gradient(135deg,var(--gold2),var(--gold));color:#081012;box-shadow:0 10px 30px rgba(217,154,39,.2)}
+.btn.outline{background:transparent;color:var(--text);border:1px solid rgba(240,180,59,.5);box-shadow:none}
+.hero{padding:95px 0 80px}
+.grid{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+.kicker{display:inline-block;color:var(--gold2);font-weight:800;letter-spacing:2px;font-size:12px;margin-bottom:18px}
+h1{font-family:Outfit;font-size:clamp(48px,7vw,82px);line-height:.98;letter-spacing:-2px}
+h1 em{font-style:normal;color:var(--gold2)}
+.hero p{color:var(--muted);font-size:18px;max-width:620px;margin:24px 0 30px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.logo-card{background:linear-gradient(145deg,rgba(255,255,255,.07),rgba(255,255,255,.015));border:1px solid var(--line);border-radius:28px;padding:24px;transform:rotate(2deg);box-shadow:0 25px 70px rgba(0,0,0,.3)}
+.logo-card img{display:block;width:100%;border-radius:20px}
+section{padding:78px 0}
+.section-head{display:flex;justify-content:space-between;gap:25px;align-items:end;margin-bottom:32px}
+.section-head h2{font-family:Outfit;font-size:40px;line-height:1.05}
+.section-head p{color:var(--muted);max-width:520px}
+.services{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.card{background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.018));border:1px solid var(--line);border-radius:18px;padding:21px;transition:.25s}
+.card:hover{transform:translateY(-5px);border-color:rgba(240,180,59,.4)}
+.icon{font-size:25px;margin-bottom:13px}.card h3{font-size:16px;margin-bottom:5px}.card p{font-size:13px;color:var(--muted)}
+.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:45px;align-items:center}
+.about-box{background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:30px}
+.about-box h3{font-family:Outfit;font-size:30px;margin-bottom:10px}.about-box p{color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px}.stat{padding:18px;border-radius:15px;background:var(--panel2);text-align:center}.stat strong{font-size:25px;color:var(--gold2);display:block}
+.cta{background:linear-gradient(135deg,#11353a,#0b2024);border:1px solid rgba(240,180,59,.2);border-radius:28px;padding:45px;text-align:center}.cta h2{font-family:Outfit;font-size:42px}.cta p{color:var(--muted);margin:10px auto 25px}
+footer{padding:35px 0;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+.footerin{display:flex;justify-content:space-between;gap:15px;align-items:center}.social{color:var(--gold2)}
+@media(max-width:850px){.links{display:none}.grid,.about{grid-template-columns:1fr}.hero{padding-top:60px}.logo-card{max-width:520px;margin:auto}.services{grid-template-columns:repeat(2,1fr)}.section-head{display:block}.section-head p{margin-top:12px}.cta h2{font-size:32px}}
+@media(max-width:500px){.services{grid-template-columns:1fr}.hero p{font-size:16px}.stats{grid-template-columns:1fr}.cta{padding:30px 20px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="container navin">
+    <a class="brand" href="#home"><img src="logo.jpg" alt="HY GRAPHIC logo"><span>HY <b>GRAPHIC</b></span></a>
+    <div class="links">
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </div>
+    <a class="btn" href="https://wa.me/919106611903" target="_blank">WhatsApp</a>
+  </div>
+</nav>
+
+<main>
+<section class="hero" id="home">
+<div class="container grid">
+<div>
+<span class="kicker">CREATIVE DESIGN STUDIO</span>
+<h1>Design that makes<br><em>your brand stand out.</em></h1>
+<p>HY GRAPHIC — All Type Of Design Work. From identity and branding to social media and print, we turn ideas into eye-catching designs.</p>
+<div class="actions">
+<a class="btn" href="https://wa.me/919106611903" target="_blank">Start a Project ↗</a>
+<a class="btn outline" href="https://instagram.com/hy_graphics" target="_blank">View Instagram</a>
+</div>
+</div>
+<div class="logo-card"><img src="logo.jpg" alt="HY GRAPHIC"></div>
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+<div class="section-head"><h2>What we design.</h2><p>Professional creative solutions for businesses, creators, events and personal brands.</p></div>
+<div class="services" id="serviceGrid"></div>
+</div>
+</section>
+
+<section id="about">
+<div class="container about">
+<div>
+<span class="kicker">ABOUT HY GRAPHIC</span>
+<h2 style="font-family:Outfit;font-size:44px;line-height:1.05">Your idea.<br>Your identity.<br><span style="color:var(--gold2)">Our design.</span></h2>
+</div>
+<div class="about-box">
+<h3>Creative. Clean. Memorable.</h3>
+<p>HY GRAPHIC helps you present your brand professionally with thoughtful, modern and purpose-driven graphic design. Every design is created to look strong, clear and memorable.</p>
+<div class="stats"><div class="stat"><strong>25+</strong><span>Design Services</span></div><div class="stat"><strong>100%</strong><span>Creative Focus</span></div><div class="stat"><strong>1:1</strong><span>Client Attention</span></div></div>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+<div class="cta">
+<span class="kicker">LET'S CREATE</span>
+<h2>Have a design in mind?</h2>
+<p>Tell us what you need and let's turn your idea into a professional design.</p>
+<div class="actions" style="justify-content:center">
+<a class="btn" href="https://wa.me/919106611903" target="_blank">Chat on WhatsApp</a>
+<a class="btn outline" href="https://instagram.com/hy_graphics" target="_blank">Follow @hy_graphics</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="container footerin"><span>© 2026 HY GRAPHIC. All rights reserved.</span><a class="social" href="https://instagram.com/hy_graphics" target="_blank">@hy_graphics</a></div>
+</footer>
+
+<script>
+const services = ["Logo","Banner","Catalogue","Poster","Flyer","Brochure","Visiting Card","Letterhead","Packaging","Label","Social Media Post","Thumbnail","Invitation Card","Menu Card","Certificate","Magazine","Book Cover","Hoarding","Standee","Pamphlet","Advertisement","Presentation","Infographic","Sticker","Calendar","Resume"];
+const icons = ["✦","▣","▤","◈","◇","▱","▭","✎","□","⌑","◎","▶","♡","☰","✓","▥","▯","▰","▮","▤","◆","▦","◌","◇","▣","▤"];
+document.getElementById("serviceGrid").innerHTML = services.map((s,i)=>`<div class="card"><div class="icon">${icons[i]}</div><h3>${s}</h3><p>Custom ${s.toLowerCase()} design</p></div>`).join("");
+</script>
+</body>
+</html>
